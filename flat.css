@@ -1,0 +1,272 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background-color: #F3FFF3;
+}
+
+#box{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    top: 0px;
+    background: #D7FFD7;
+}
+
+#box1{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0%;
+    bottom: 0px;
+    background: #D7FFD7;
+}
+#box2{
+    position: absolute;
+    width: 23%;
+    height: 50px;
+    left: 0%;
+    top: 0%;
+    background: #97FF95;
+    border-bottom-right-radius: 30px;
+}
+
+#box3{
+    position: absolute;
+    width: 23%;
+    height: 50px;
+    left: 50%;
+    top: 0%;
+    background: #97FF95;
+    border-bottom-right-radius: 30px;
+}
+
+#box4{
+    position: absolute;
+    width: 23%;
+    height: 50px;
+    left: 0%;
+    top: 50%;
+    background: #97FF95;
+    border-bottom-right-radius: 30px;
+}
+
+#box5{
+    position: absolute;
+    width: 23%;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    background: #97FF95;
+    border-bottom-right-radius: 30px;
+}
+#box22{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 3%;
+    top: 14%;
+    background: #EDEDED;
+    border-radius: 10px;
+}
+#img{
+    position: absolute;
+    top: 15.3%;
+    left: 4%;
+    width: 180px;
+    height: 180px;
+}
+
+#box33{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 53%;
+    top: 14%;
+    background: white;
+    border-radius: 10px;
+}
+#img2{
+    position: absolute;
+    top: 15.3%;
+    left: 54%;
+    width: 180px;
+    height: 180px;
+}
+#img3{
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    width: 180px;
+    height: 180px;
+}
+#img4{
+    position: absolute;
+    top: 66%;
+    left: 54.2%;
+    width: 170px;
+    height: 170px;
+}
+
+#box44{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 3%;
+    top: 64%;
+    background: white;
+    border-radius: 10px;
+}
+
+#box55{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 53%;
+    top: 64%;
+    background: #EDEDED;
+    border-radius: 10px;
+}
+h1{
+    position: absolute;
+    top: -3%;
+    left: 7%;
+    font-size: 35px;
+}
+h2{
+    position: absolute;
+    top: -3.9%;
+    left: 52%;
+    font-size: 35px;
+}
+h3{
+    position: absolute;
+    top: 45.5%;
+    left: 2%;
+    font-size: 35px;
+}
+h4{
+    position: absolute;
+    top: 43.8%;
+    left: 52%;
+    font-size: 35px;
+}
+
+
+
+.persegi{
+    font-size: 19px;
+    position: absolute;
+    top: 14%;
+    left: 22%;
+    background: #EDEDED;
+    padding: 20px;
+    border-radius: 20px;
+}
+.segitiga{
+    font-size: 19px;
+    position: absolute;
+    top: 14%;
+    left: 72%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.trapesium{
+    font-size: 19px;
+    position: absolute;
+    top: 64%;
+    left: 22%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.lingkaran{
+    font-size: 19px;
+    position: absolute;
+    top: 64%;
+    left: 72%;
+    background: #EDEDED;
+    padding: 20px;
+    border-radius: 20px;
+}
+.persegiw{
+    width: 120px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.sg{
+    width: 120px;
+    height: 20px;
+    background: #EDEDED;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#check{
+    position: absolute;
+    margin-left: 44%;
+}
+
+
+
+
+
+
+.lr{
+    width: 120px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+
+.tp{
+    width: 130px;
+    height: 20px;
+    background: #EDEDED;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+
+
+#disini{
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    font-size: 20px;
+}
+
+#disini3{
+    position: absolute;
+    top: 58%;
+    left: 73%;
+    font-size: 20px;
+}
+#disini1{
+    position: absolute;
+    top: 8%;
+    left: 73%;
+    font-size: 20px;
+}
+#disini2{
+    position: absolute;
+    top: 58%;
+    left: 23%;
+    font-size: 20px;
+}
+
+
+h5{
+    position: absolute;
+    left: 0%;
+    top: -3%;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}

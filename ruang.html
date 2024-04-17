@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BANGUN</title>
+    <link rel="stylesheet" href="ruang.css">
+    <script type="text/javascript" src="ruang.js"></script>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+    <div id="box22"></div>
+    <div id="box33"></div>
+    <div id="box44"></div>
+    <div id="box55"></div>
+    <img id="img" src="assets/kubus.png">
+    <img id="img2" src="assets/kerucut.png">
+    <img id="img3" src="assets/balok.png">
+    <img id="img4" src="assets/tabung.png">
+    <h1 id="disini">Hitung Di Sini</h1>
+    <a href="menu.html"><h5>BACK</h5></a>
+    <div class="kubus">
+        <label>panjang sisi</label><br>
+        <input class="kb" type="text" name="skb" id="skb" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungkb" value="luas kb" onclick="hitungkb(this.value)">luas kb</div>
+        <input type="checkbox" name="hitungkb" value="volume kb" onclick="hitungkb(this.value)">volume kb<br>
+        <input class="kb" name="hasilkkb" type="text" id="hasilkkb" placeholder="hasil">
+        <input class="kb" name="hasillkb" type="text" id="hasillkb" placeholder="hasil">
+    </div>
+
+    <h1 id="disini1">Hitung Di Sini</h1>
+    <div class="kerucut">
+        <label>sisi miring</label><br>
+        <input class="kr" type="text" name="skr" id="skr" placeholder="dalam cm"><br>
+        <label>jari - jari</label><label style="word-spacing: 3.2em;"> tinggi</label><br>
+        <input class="kr" type="text" name="r" id="r" placeholder="dalam cm">
+        <input class="kr" type="text" name="tkr" id="tkr" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungkr" value="luas kr" onclick="hitungkr(this.value)">luas kr</div>
+        <input type="checkbox" name="hitungkr" value="volume kr" onclick="hitungkr(this.value)">volume kr<br>
+        <input class="kr" name="hasilkkr" type="text" id="hasilkkr" placeholder="hasil">
+        <input class="kr" name="hasillkr" type="text" id="hasillkr" placeholder="hasil">
+    </div>
+    <h1 id="disini2">Hitung Di Sini</h1>
+    <div class="balok">
+        <label>panjang</label><br>
+        <input class="bk" type="text" name="sbk" id="sbk" placeholder="dalam cm"><br>
+        <label>lebar</label><label style="word-spacing: 4.6em;"> tinggi</label><br>
+        <input class="bk" type="text" name="pbk" id="pbk" placeholder="dalam cm">
+        <input class="bk" type="text" name="lbk" id="lbk" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungbk" value="luas bk" onclick="hitungbk(this.value)">luas bk</div>
+        <input type="checkbox" name="hitungbk" value="volume bk" onclick="hitungbk(this.value)">volume bk<br>
+        <input class="bk" name="hasilbk" type="text" id="hasilbk" placeholder="hasil">
+        <input class="bk" name="hasillbk" type="text" id="hasillbk" placeholder="hasil">
+
+    </div>
+    <h1 id="disini3">Hitung Di Sini</h1>
+    <div class="tabung">
+        <label>jari - jari</label><label style="word-spacing: 4.6em;"> tinggi</label><br>
+        <input class="tb" type="text" name="stb" id="stb" placeholder="dalam cm">
+        <input class="tb" type="text" name="ttb" id="ttb" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungtb" value="luas tb" onclick="hitungtb(this.value)">luas tb</div>
+        <input type="checkbox" name="hitungtb" value="volume tb" onclick="hitungtb(this.value)">volume tb<br>
+        <input class="tb" name="hasilktb" type="text" id="hasilktb" placeholder="hasil">
+        <input class="tb" name="hasilltb" type="text" id="hasilltb" placeholder="hasil">
+    </div>
+    <h1>Kubus</h1>
+    <h2>Kerucut</h2>
+    <h3>Balok</h3>
+    <h4>Tabung</h4>
+</body>
+</html>
+
+

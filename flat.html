@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BANGUN</title>
+    <link rel="stylesheet" href="flat.css">
+    <script type="text/javascript" src="persegi.js"></script>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+    <div id="box22"></div>
+    <div id="box33"></div>
+    <div id="box44"></div>
+    <div id="box55"></div>
+   
+    <img id="img" src="assets/persegi.png">
+    <img id="img2" src="assets/segitiga.png">
+    <img id="img3" src="assets/trapesium.png">
+    <img id="img4" src="assets/lingkaran.png">
+    <h1>Persegi</h1>
+    <h2>Segi Tiga</h2>
+    <h3>Trapesium</h3>
+    <h4>Lingkaran</h4>
+    <h1 id="disini">Hitung Di Sini</h1>
+    <a href="menu.html"><h5>BACK</h5></a>
+    <div class="persegi">
+        <label>panjang sisi</label><br>
+        <input class="persegiw" type="text" name="spersegi" id="spersegi" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitung" value="luas" onclick="hitung(this.value)">luas</div>
+        <input type="checkbox" name="hitung" value="keliling" onclick="hitung(this.value)">keliling<br>
+        <input class="persegiw" name="hasilk" type="text" id="hasilk" placeholder="hasil">
+        <input class="persegiw" name="hasill" type="text" id="hasill" placeholder="hasil">
+    </div>
+
+    <h1 id="disini1">Hitung Di Sini</h1>
+    <div class="segitiga">
+        <label>panjang sisi </label><label style="word-spacing: 0.6em;">1 panjang</label><label> sisi 2</label><br>
+        <input class="sg" type="text" name="ssg1" id="ssg1" placeholder="dalam cm">
+        <input class="sg" type="text" name="ssg2" id="ssg2" placeholder="dalam cm"><br>
+        <label>panjang sisi </label><label style="word-spacing: 0.7em;">3 tinggi</label><br>
+        <input class="sg" type="text" name="ssg3" id="ssg3" placeholder="dalam cm">
+        <input class="sg" type="text" name="sgt" id="sgt" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungsg" value="luas sg" onclick="hitungsg(this.value)">luas sg</div>
+        <input type="checkbox" name="hitungsg" value="keliling sg" onclick="hitungsg(this.value)">keliling sg<br>
+        <input class="sg" name="hasilksg" type="text" id="hasilksg" placeholder="hasil">
+        <input class="sg" name="hasillsg" type="text" id="hasillsg" placeholder="hasil">
+    </div>
+
+    <h1 id="disini2">Hitung Di Sini</h1>
+    <div class="trapesium">
+        <label>sisi miring </label><label style="word-spacing: 2em;">1 sisi</label><label> miring 2</label><br>
+        <input class="tp" type="text" name="stp1" id="stp1" placeholder="dalam cm">
+        <input class="tp" type="text" name="stp2" id="stp2" placeholder="dalam cm"><br>
+        <label>sisi </label><label style="word-spacing: 2.7em;">sejajar tinggi</label><br>
+        <input class="tp" type="text" name="stp3" id="stp3" placeholder="sisi atas + sisi bawah">
+        <input class="tp" type="text" name="ttp" id="ttp" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitungtp" value="luas tp" onclick="hitungtp(this.value)">luas tp</div>
+        <input type="checkbox" name="hitungtp" value="keliling tp" onclick="hitungtp(this.value)">keliling tp<br>
+        <input class="tp" name="hasilltp" type="text" id="hasilktp" placeholder="hasil">
+        <input class="tp" name="hasilktp" type="text" id="hasilltp" placeholder="hasil">
+    </div>
+</body>
+
+<h1 id="disini3">Hitung Di Sini</h1>
+    <div class="lingkaran">
+        <label>jari - jari</label><br>
+        <input class="lr" type="text" name="r" id="r" placeholder="dalam cm"><br><br>
+        <div id="check"><input type="checkbox" name="hitunglr" value="luas lr" onclick="hitunglr(this.value)">luas lr</div>
+        <input type="checkbox" name="hitunglr" value="keliling lr" onclick="hitunglr(this.value)">keliling lr<br>
+        <input class="lr" name="hasilklr" type="text" id="hasilklr" placeholder="hasil">
+        <input class="lr" name="hasilllr" type="text" id="hasilllr" placeholder="hasil">
+    </div>
+</html>
+
+

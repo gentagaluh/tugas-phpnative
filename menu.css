@@ -1,0 +1,98 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #F3FFF3;
+}
+
+#box{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0%;
+    top: 0px;
+    background: #D7FFD7;
+}
+
+#box1{
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 10.5%;
+    top: 190px;
+    background: #97FF95;
+    border-radius: 40px;
+}
+
+#box2{
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 10.5%;
+    top: 190px;
+    background: #97FF95;
+    border-radius: 40px;
+}
+
+#box4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 15.5%;
+    top: 240px;
+    background: white;
+    border-radius: 10px;
+}
+#box5{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 15.5%;
+    top: 240px;
+    background: white;
+    border-radius: 10px;
+}
+#klikk{
+    position: absolute;
+    right: 19.7%;
+    top: 70.5%;
+}
+#klik{
+    position: absolute;
+    left: 21%;
+    top: 70.5%;
+}
+h1{
+    position: absolute;
+    top: -9%;
+    left: 17.7%;
+    font-size: 60px;
+    background: #EDEDED;
+    padding: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#img{
+    position: absolute;
+    top: 37.8%;
+    left: 17.5%;
+    width: 200px;
+    height: 200px;
+}
+#img2{
+    position: absolute;
+    top: 37.8%;
+    right: 17.5%;
+    width: 200px;
+    height: 200px;
+}
+h5{
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
